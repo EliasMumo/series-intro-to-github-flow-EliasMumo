@@ -48,6 +48,36 @@ Check out these resources to learn more or get involved:
 - [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
 - To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
 
+- HERE ARE SOME OF THE COMMANDS I USER IN THIS ASSIGNMENT
+- git clone <repository_url>
+cd <repository_name>
+ls  # List files in the repository
+git log  # View commit history
+git clone <your_forked_repository_url>
+git checkout -b feature-update  # Create and switch to a new branch
+git checkout <branch_name>  # Switch to an existing branch
+nano <filename>  # Open a file in the nano text editor
+git add .  # Stage all changes
+git commit -m "Your commit message"  # Commit changes
+git checkout main  # Switch to the main branch
+git merge feature-update  # Merge feature-update branch into main
+nano <filename>  # Edit the file to create conflicts
+git add .  # Stage the conflicted file
+git commit -m "Made conflicting changes"
+git push origin main  # Push changes to your forked repository
+git checkout -b resolve-conflict  # Create a new branch to resolve conflicts
+nano <filename>  # Manually edit the file to resolve conflicts
+git add .  # Stage the resolved file
+git commit -m "Resolved conflict"
+git checkout main  # Switch to the main branch
+git merge resolve-conflict  # Merge resolve-conflict branch into main
+git push origin main  # Push changes to your forked repository
+
+NB if you scroll above you can also see some of the thinhs i did which include : You learned about GitHub, repositories, branches, commits, and pull requests.
+- You created a branch, a commit, and a pull request.
+- You merged a pull request.
+- You made your first contribution! :tada:
+
 <footer>
 
 <!--
